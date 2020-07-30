@@ -1,0 +1,603 @@
+*{
+	margin:  0;
+	padding: 0;
+}
+
+header{
+	background-image: url(img/bg.png);
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+}
+
+img{
+	height: 110px;
+	width: 110px;
+	margin-left: 10px;
+}
+
+ul{
+	float: right;
+	margin: 10px 20px;
+}
+
+ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+	margin-top: 15px;
+}
+
+ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	border: 1px solid white;
+	color: red;
+	font-style: bold;
+	padding: 4px;
+}
+ul li a:hover{
+	background: white;
+	transition: 0.7s;
+}
+
+
+.logo{
+	float: left;
+	display: inline-block;
+}
+.title{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	}
+.title h1{
+	color: white;
+	font-size: 65px;
+	text-shadow: 4px 4px 1px red;
+}
+
+.btn{
+	position: absolute;
+	top: 85%;
+	left: 36%;
+}
+.btn a{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	border: 1px solid orange;
+	margin: 25px;
+	padding:4px;
+}
+.btn a:hover{
+	background: gray;
+	transition: 0.7s;
+}
+.animation{
+	height: 70px;
+	width:70px;
+	position: relative;
+	top: 30px;
+	left: 40px;
+}
+.animation .ani1{
+	height: 40%;
+	width: 40%;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	animation: move1 2s infinite;
+
+}
+@keyframes move1{
+	0%{
+		top:0px;
+		left: 0px;
+	}
+	25%{
+		top:0px;
+		left: 80%;
+	}
+	50%{
+		top: 80%;
+		left:80%;
+	}
+	75%{
+		top:80%;
+		left: 0px;
+	}
+	100%{
+		top:0px;
+		left: 0px;
+	}
+}
+
+.animation .ani2{
+	height: 40%;
+	width: 40%;
+	background: blue;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	animation: move2 2s infinite;
+
+}
+
+@keyframes move2{
+	0%{
+		top:0px;
+		right: 0px;
+	}
+	25%{
+		top:0px;
+		right: 80%;
+	}
+	50%{
+		top: 80%;
+		right:80%;
+	}
+	75%{
+		top:80%;
+		right: 0px;
+	}
+	100%{
+		top:0px;
+		right: 0px;
+	}
+}
+.animation .ani3{
+	height: 40%;
+	width: 40%;
+	background: yellow;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	animation: move3 2s infinite;
+
+}
+
+@keyframes move3{
+	0%{
+		bottom:0px;
+		right: 0px;
+	}
+	25%{
+		bottom:0px;
+		right: 80%;
+	}
+	50%{
+		bottom: 80%;
+		right:80%;
+	}
+	75%{
+		bottom:80%;
+		right: 0px;
+	}
+	100%{
+		bottom:0px;
+		right: 0px;
+	}
+}
+.animation .ani4{
+	height: 40%;
+	width: 40%;
+	background: green;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	animation: move4 2s infinite;
+
+}
+
+@keyframes move4{
+	0%{
+		bottom:0px;
+		left: 0px;
+	}
+	25%{
+		bottom:0px;
+		left: 80%;
+	}
+	50%{
+		bottom: 80%;
+		left:80%;
+	}
+	75%{
+		bottom:80%;
+		left: 0px;
+	}
+	100%{
+		bottom:0px;
+		left: 0px;
+	}
+}
+
+
+
+
+
+/*About Start*/
+.about{
+	display: inline-block;
+	float: left;
+	height: 100vh;
+	width: 100%;
+}
+.about .img1{
+	background-image: url(img/1.jpeg);
+	height: 70%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.about .img2{
+	background-image: url(img/2.jpeg);
+	height: 70%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.about .img3{
+	background-image: url(img/3.jpeg);
+	height: 70%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.about .img4{
+	background-image: url(img/4.jpeg);
+	height: 70%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+       /*About End*/
+
+
+
+
+           /*Team Start*/
+
+
+
+section{
+	height: 100vh;
+	width: 100%;
+	background: #A084B3;
+}
+.team{
+	height: 300px;
+	width: 900px;
+	margin: 0px auto;
+	padding-top: 100px;
+}
+.team h2{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+
+.team .team1{
+	height: 300px;
+	width: 31%;
+	background: #C3C7AE;
+	float: left;
+	display: inline-block;
+	margin-left: 10px;
+
+}
+.team .team1 img{
+	height: 140px;
+	width: 140px;
+	border-radius: 50%;
+	margin-left: 60px;
+}
+.team .team1 p{
+	color:red;
+	text-align: justify;
+	padding: 10px;
+	font-style: italic;
+
+}
+.team .team2{
+	height: 300px;
+	width: 31%;
+	background: red;
+	float: left;
+	display: inline-block;
+	margin-left: 10px;
+
+}
+.team .team2 img{
+	height: 140px;
+	width: 140px;
+	border-radius: 50%;
+	margin-left: 60px;
+
+}
+.team .team2 p{
+	color:white;
+	text-align: justify;
+	padding: 10px;
+	font-style: italic;
+
+}
+.team .team3{
+	height: 300px;
+	width: 31%;
+	background: green;
+	float: left;
+	display: inline-block;
+	margin-left: 10px;
+
+	
+}
+.team .team3 img{
+	height: 140px;
+	width: 140px;
+	border-radius: 50%;
+	margin-left: 60px;
+
+}
+.team .team3 p{
+	color:yellow;
+	text-align: justify;
+	padding: 10px;
+	font-style: italic;
+
+}
+
+
+        /*Team End*/
+
+
+        /*Contact Start*/
+
+.contact-bg{
+
+	background-image: url(img/contact.jpeg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	
+
+
+}
+.contact-ani{
+	height: 580px;
+	width: 480px;
+	position: relative;
+	left: 35%;
+	top: 6%;
+
+}
+
+.contact-ani .ani1{
+	height: 5%;
+	width: 5%;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	animation: move1 2s infinite;
+
+}
+@keyframes move1{
+	0%{
+		top:0px;
+		left: 0px;
+	}
+	25%{
+		top:0px;
+		left: 80%;
+	}
+	50%{
+		top: 80%;
+		left:80%;
+	}
+	75%{
+		top:80%;
+		left: 0px;
+	}
+	100%{
+		top:0px;
+		left: 0px;
+	}
+}
+
+.contact-ani .ani2{
+	height: 5%;
+	width: 5%;
+	background: blue;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	animation: move2 2s infinite;
+
+}
+
+@keyframes move2{
+	0%{
+		top:0px;
+		right: 0px;
+	}
+	25%{
+		top:0px;
+		right: 80%;
+	}
+	50%{
+		top: 80%;
+		right:80%;
+	}
+	75%{
+		top:80%;
+		right: 0px;
+	}
+	100%{
+		top:0px;
+		right: 0px;
+	}
+}
+.contact-ani .ani3{
+	height: 5%;
+	width: 5%;
+	background: yellow;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	animation: move3 2s infinite;
+
+}
+
+@keyframes move3{
+	0%{
+		bottom:0px;
+		right: 0px;
+	}
+	25%{
+		bottom:0px;
+		right: 80%;
+	}
+	50%{
+		bottom: 80%;
+		right:80%;
+	}
+	75%{
+		bottom:80%;
+		right: 0px;
+	}
+	100%{
+		bottom:0px;
+		right: 0px;
+	}
+}
+.contact-ani .ani4{
+	height: 5%;
+	width: 5%;
+	background: green;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	animation: move4 2s infinite;
+
+}
+
+@keyframes move4{
+	0%{
+		bottom:0px;
+		left: 0px;
+	}
+	25%{
+		bottom:0px;
+		left: 80%;
+	}
+	50%{
+		bottom: 80%;
+		left:80%;
+	}
+	75%{
+		bottom:80%;
+		left: 0px;
+	}
+	100%{
+		bottom:0px;
+		left: 0px;
+	}
+}
+
+
+.contact{
+	height: 500px;
+	width: 400px;
+	background: linear-gradient(yellow,red);
+	border: 5px dotted yellow;
+	margin: 20px auto;
+	border-radius: 60px 60px;
+	position: absolute;
+	left: 37%;
+	top: 6%;
+}
+.contact h2{
+	color: #3072B0;
+	font-size: 30px;
+	text-align: center;
+}
+.contact label{
+	color: #59405c;
+	font-size: 20px;
+	padding: 10px;
+	
+}
+input[type="text"]{
+	color: green;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	width: 65%;
+	margin-top: 20px;
+}
+
+input[type="email"]{
+	color: green;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	margin-left: 44px;
+	width: 65%;
+	margin-top: 20px;
+
+}
+input[type="sub"]{
+	color: green;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	width: 65%;
+	margin-left: 32px;
+	margin-top: 20px;
+}
+textarea{
+	color: green;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	width: 51%;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: -10px;
+}
+input[type="number"]{
+	color: green;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	width: 65%;
+	margin-top: 20px;
+	margin-left: -14px;
+}
+
+input[type="submit"]{
+	color: green;
+	padding: 5px 10px;
+	width: 30%;
+	height: 50px;
+	margin-top: 50px;
+	margin-left: 150px;
+	background: #ffc1fa;
+	font-style: bold;
+	font-size: 30px;
+}
+
+
+
+            /*Contact End*/
